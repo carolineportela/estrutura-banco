@@ -1,15 +1,11 @@
-package com.richard.agregadorinvestimentos.service;
+package com.richard.agregadorinvestimentos.services;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 //import com.richard.agregadorinvestimentos.controller.CreateUserDto;
 //import com.richard.agregadorinvestimentos.controller.UpdateUsersDto;
-import com.richard.agregadorinvestimentos.entity.Users;
-import com.richard.agregadorinvestimentos.repository.UsersRepository;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import com.richard.agregadorinvestimentos.entities.Users;
+import com.richard.agregadorinvestimentos.repositories.user.UsersRepository;
 
-import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
 

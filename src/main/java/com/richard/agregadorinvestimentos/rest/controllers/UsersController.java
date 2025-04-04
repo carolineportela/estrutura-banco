@@ -1,11 +1,10 @@
-package com.richard.agregadorinvestimentos.controller;
+package com.richard.agregadorinvestimentos.rest.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.richard.agregadorinvestimentos.entity.Users;
-import com.richard.agregadorinvestimentos.service.UsersService;
+import com.richard.agregadorinvestimentos.entities.Users;
+import com.richard.agregadorinvestimentos.services.UsersService;
 
-import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 

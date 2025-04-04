@@ -1,10 +1,10 @@
-package com.richard.agregadorinvestimentos.repository;
+package com.richard.agregadorinvestimentos.repositories.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 //classe
-import com.richard.agregadorinvestimentos.entity.Users;
+import com.richard.agregadorinvestimentos.entities.Users;
 
 
 @Repository
